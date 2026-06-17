@@ -63,3 +63,11 @@ catalog.json
 site/sitemap.xml
 site/llms.txt
 site/build-meta.js
+# Ignorar arquivos pesados de modelos e checkpoints
+*.pt
+*.pth
+.env
+__pycache__/
+*.pt
+*.pth
+*.safetensors
